@@ -1,7 +1,8 @@
 # Movies_ETL
 
-Extract, transform data done for a plataform of streaming movies and TV shows. Creating a clean data sets with two data sources: 1. Scrape of Wikipedia for all movies released since 1990 and rating data as a cvs file, then loading that data set into SQL table 
+The purporse of this project is to is to extract and transform data for a plataform of streaming movies and TV shows. The project was done by transforming the datasets, cleaning them up and joining them together, and loading the cleaned dataset into a SQL database. There were three data sources: 
+  1. Scrape of Wikipedia data stored as a JSON.
+  2. Kaggle data stored in CSVs.
+  3. Ratings data stored in CSVs.
 
-extract the Wikipedia and Kaggle data from their respective files, transform the datasets by cleaning them up and joining them together, and load the cleaned dataset into a SQL database.
 
-Wikipedia data stored as a JSON, and Kaggle data stored in CSVs.
